@@ -24,7 +24,7 @@ def info():
     return jsonify({
         "app": "devops-portfolio",
         "version": os.getenv("APP_VERSION", "1.0.0"),
-        "author": os.getenv("APP_AUTHOR", "Valentin Aguergaray")
+        "author": os.getenv("APP_AUTHOR", "-devops")
     })
 
 if __name__ == "__main__":
